@@ -1,4 +1,4 @@
-# Creat clusters in local machine with Kind and managing them with kubernetes
+# Create clusters in local machine with Kind and managing them with kubernetes
 1-
 kind create cluster --image=kindest/node:v1.25.3 --config=config.yaml
 kubectl get nodes
